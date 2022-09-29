@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+	<body onload="myF()">
+	<script type="text/javascript">
+function hide_float_right() {
+    var content = document.getElementById('float_content_right');
+    var hide = document.getElementById('hide_float_right');
+    if (content.style.display == "none")
+    {content.style.display = "block"; hide.innerHTML = '<a href="javascript:hide_float_right()"> Tắt quảng cáo [X]</a>'; }
+        else { content.style.display = "none"; hide.innerHTML = '<a href="javascript:hide_float_right()">Mở quảng cáo</a>';
+    }
+    }
+	function myF(){
+      onl.style.display = "block";
+      
+    }
+    function un(){
+        onl.style.display = "none";
+    }
+</script>
+	
+<style>
+.float-ck { position: fixed; bottom: 30px; z-index: 9000}
+* html .float-ck {position:absolute;bottom:auto;top:expression(eval (document.documentElement.scrollTop+document.docum entElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))) ;}
+#float_content_right {border: 3px solid #01AEF0;}
+#hide_float_right {text-align:right; font-size: 11px;}
+#hide_float_right a {background: #01AEF0; padding: 2px 4px; color: #FFF;}
+</style>
+
+    <div class="float-ck" style="right: 0px">
+<div id="hide_float_right">
+<a href="javascript:hide_float_right()">Tắt quảng cáo[X]</a></div>
+<div id="float_content_right">
+<!-- Start quang cao-->
+<img src="images/quangcao.jpg" alt="">
+<!-- End quang cao -->
+</div>
+</div>
+<!-- QUẢNG CÁO GIỮA -->
+    <div id="onl" style="position: fixed; bottom: 120px; top: 80px; left: 300px; z-index: 100; display: block;">
+        <div style="backgroud-color:black; width:1000px; height=200px;">
+            <a href="javascript:un()" style="color:aqua;"> Tắt quảng cáo [X]</a>
+            <img src="images/cac-goi-dich-vu-tren-fpt-play.jpg" alt="" width="650" height="450">
+        </div>
+    </div>
+<!-- KẾT THÚC QUẢNG CÁO GIỮA -->
+</body>
+	<header> 
+<div class="topnav">
+	<a href= "#"> <img src="images/logo-2.png" alt="FPT"></a>
+  <div class="search-container">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><img src="images/timkiem3_1.png" alt="" width="50" height="50"> <i class="fa fa-search"></i></button>
+  </div>
+	<button class="dangky">Đăng ký</button>
+	<button class="dangnhap">Đăng nhập</button>
+
+<div class="topnav1">
+  <a href="#home">Trang chủ</a>
+  <a href="#news">Truyền hình</a>
+  <a href="#contact">HBO GO</a>
+	 <a href="#contact">Thể thao</a>
+	 <a href="#contact">Phim bộ</a>
+	 <a href="#contact">TV Show</a>
+	 <a href="#contact">Thiếu nhi</a>
+	 <a href="#contact">Phim lẻ</a>
+	 <a href="#contact">Anime</a>
+	 <a href="#contact">Âm nhạc</a>
+ <div class="dropdown">
+    <button class="dropbtn">Xem thêm 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Gói đặc sắc</a>
+      <a href="#">Hài</a>
+      <a href="#">Sân khấu</a>
+      <a href="#">Học tập</a>
+	  <a href="#">Pladio</a>
+    </div>
+  </div> 
+	</div>
+		
+		</div>
+		
+	</header>
+	
+   <nav>
+	<div class="main">
+		<div id="slide">
+		<div class="slideshow-container">
+	    <div class="mySlides fade">
+             <img src="images/009278h2-landscape09-09-2022_08g05-01.webp" alt=" " width="100%">
+         </div>
+		 <div class="mySlides fade">
+             <img src="images/023714a1-landscape27-09-2022_05g34-10.webp" alt=" " width="100%">
+         </div>
+		 <div class="mySlides fade">
+           <img src="images/ban-co-an-toan-31-tap-fpt-play-1662713911374_Landscape.webp" alt=" " width="100%">
+         </div>
+		 <div class="mySlides fade">
+             <img src="images/lycorisrecoilmain_bghd30-06-2022_12g28-26.webp" alt=" " width="100%">
+         </div>
+         <div class="mySlides fade">
+           <img src="images/phi-ho-ngoai-truyen-40-tap-fpt-play-1662619769467_Landscape.webp" alt=" " width="100%">
+         </div>
+			 <div class="mySlides fade">
+             <img src="images/season-se1889-landscape06-09-2022_07g15-05.webp" alt=" " width="100%">
+         </div>
+		  <div class="mySlides fade">
+            <img src="images/v31yuoz2_1920x1080-matvusnowden_1920_108027-09-2022_04g47-41.webp" alt=" " width="100%">
+         </div>
+			<div class="mySlides fade">
+            <img src="images/75375if3mfdsirsh00ii5jkptbr28-09-2022_05g17-03.webp" alt=" " width="100%">
+         </div>
+			<div class="mySlides fade">
+            <img src="images/we1xyf4a_1920x1080_nguoisoi_1920_108028-09-2022_08g59-23.webp" alt=" " width="100%">
+         </div>
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+	</div>
+		</div>
+		
+			
+	   </div>
+	</nav>
+	
+	<footer>
+	 <div class="botnav">
+		
+		</div>
+	</footer>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  } 
+  
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 4000); 
+  slideIndex++;
+}
+</script>
+</body>
+</html>

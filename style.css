@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #111;
+}
+.topnav .search-container {
+  float: right;
+}
+.topnav input[type=text] {
+  padding: 6px;
+  background-color: #1B1B1B;
+  color: rgba(255,255,255,1.00);
+  margin-top: 12px;
+  font-size: 17px;
+  border: none;
+}
+.topnav .search-container button {
+  float: right;
+  padding: 4.5px 10px ;
+  margin-top: -3px;
+  margin-right: 320px;
+  font-size: 20px;
+  background-color: #111;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+	.topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+ .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+header {
+	height: 110px;
+	background: #111;
+}
+header a img{
+     padding: 14px;
+}
+.w3-btn {
+	margin-bottom:10px;
+}
+.dangky {
+  background-color:red; 
+  color: white; 
+  border: 2px solid #f44336;
+  border-radius: 8px;
+  float: right;
+  padding: 10px 17px;
+  margin-top: 12px;
+  margin-right: -600px;
+  cursor: pointer;
+}
+
+.dangky:hover {
+  background-color: white;
+  color: black;
+}
+.dangnhap {
+  background-color:red; 
+  color: white; 
+  border: 2px solid #f44336;
+  border-radius: 8px;
+  float: right;
+  padding: 10px 13px;
+  margin-top: 12px;
+  margin-right: -490px;
+  cursor: pointer;
+}
+
+.dangnhap:hover {
+  background-color: white;
+  color: black;
+}
+.topnav1 {
+  overflow: hidden;
+  background-color: #111;
+  margin:0 auto;
+  width: 70%;
+}
+
+.topnav1 a {
+  float:left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav1 a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav1 a.active {
+  border-bottom: 3px solid red;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #111;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.slideshow-container {
+  max-width: 1150px;
+  position: relative;
+  margin: auto;
+  padding-top: 10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+nav {
+	background-color: #1B1B1B;
+}
